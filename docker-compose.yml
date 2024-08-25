@@ -1,0 +1,6 @@
+﻿services:
+  template:
+    image: template
+    build:
+      context: .
+      dockerfile: Api/Dockerfile
